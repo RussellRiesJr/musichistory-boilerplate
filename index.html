@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="nav">
+  <div class="nav border">
     <ul>
     <li><a href="#">View Music</a> | </li>
     <li><a href="#">Add Music</a> | </li>
@@ -16,13 +16,13 @@
     </ul>
   </div>
 
-  <div class="side">
+  <div class="side border">
     <form action="index_submit" method="get" accept-charset="utf-8">
       <label for="song-length">Song Length:</label>
       <br/>
       <input type="range" id="song-length" min="2" max="10" step="0.5" value="6">
       <br/>
-      <label for="artist">Artist</label>
+      <label for="artist">Artist:</label>
       <br/>
       <input name="artist" list="artist-name" placeholder="Options">
       <datalist id="artist-name">
@@ -33,7 +33,7 @@
       <option value="Spring Hill Spider Party">
       </datalist>
       <br/>
-      <label for="album">Album</label>
+      <label>Album:</label>
       <br/>
       <input name="album" list="artist-album" placeholder="Options">
       <datalist id="artist-album">
@@ -58,12 +58,14 @@
       <input type="checkbox" name="blues" value="blues">Blues
       <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop
       <br/>
-      <input type="button" name="filter" value="Filter">
+      <div class="middle">
+        <input type="button" class="middle" name="filter" value="Filter">
+      </div>
     </form>
 
   </div>
 
-  <div class="main">
+  <div class="main border">
     <p class="large">Song Name</p>
     <p>Artist Name  |  Album Name  |  Genre</p>
     <p class="large">Song Name</p>

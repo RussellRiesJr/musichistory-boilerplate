@@ -1,11 +1,11 @@
-div {
+div.border {
   border: 2px solid black;
 }
 
 .nav {
   background-color: #FFB4B0;
   height: 60px;
-  margin: 5px 60px 0 60px;
+  margin: 5px 85px 0 85px;
 }
 
 .nav li {
@@ -16,17 +16,17 @@ div {
   cursor: pointer;
 }
 
-.nav li:hover {
+.nav a:hover {
   color: white;
 }
 
 .side {
   background-color: #4DD7FA;
   float: left;
-  width: 250px;
+  width: 200px;
   height: 345px;
   padding: 15px;
-  margin: 5px 0 0 60px;
+  margin: 5px 0 0 85px;
 }
 
 .side form {
@@ -40,7 +40,7 @@ div {
   width: 900px;
   height: auto;
   padding: 15px;
-  margin: 5px 60px 0 0;
+  margin: 5px 85px 0 0;
 }
 
 .main p {
@@ -51,4 +51,8 @@ div {
 p.large {
   font-size: 2em;
   color: #785616;
+}
+
+.middle {
+  text-align: center;
 }
