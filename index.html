@@ -22,18 +22,55 @@
       <br/>
       <input type="range" id="song-length" min="2" max="10" step="0.5" value="6">
       <br/>
+      <label for="artist">Artist</label>
+      <br/>
+      <input name="artist" list="artist-name" placeholder="Options">
+      <datalist id="artist-name">
+      <option value="Red Knuckles and the Trailblazers">
+      <option value="Pavement">
+      <option value="Mote">
+      <option value="Plastic Clap">
+      <option value="Spring Hill Spider Party">
+      </datalist>
+      <br/>
+      <label for="album">Album</label>
+      <br/>
+      <input name="album" list="artist-album" placeholder="Options">
+      <datalist id="artist-album">
+      <option value="1986">
+      <option value="Shades of the Past">
+      <option value="Slanted and Enchanted">
+      <option value="Brighten the Corners">
+      <option value="Crooked Rain Crooked Rain">
+      <option value="Thrive EP">
+      <option value="FTFA">
+      <option value="Three Swords and a Gash">
+      </datalist>
+      <br/>
+      <label for="genre">Genre:</label>
+      <br/>
+      <input type="checkbox" name="rock" value="rock">Rock
+      <input type="checkbox" name="classical" value="classical">Classical
+      <br/>
+      <input type="checkbox" name="pop" value="pop">Pop
+      <input type="checkbox" name="jazz" value="jazz">Jazz
+      <br/>
+      <input type="checkbox" name="blues" value="blues">Blues
+      <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop
+      <br/>
+      <input type="button" name="filter" value="Filter">
     </form>
 
   </div>
 
   <div class="main">
-    <p>Song Name</p>
+    <p class="large">Song Name</p>
     <p>Artist Name  |  Album Name  |  Genre</p>
-    <p>Song Name</p>
+    <p class="large">Song Name</p>
     <p>Artist Name  |  Album Name  |  Genre</p>
-    <p>Song Name</p>
+    <p class="large">Song Name</p>
     <p>Artist Name  |  Album Name  |  Genre</p>
-    <p>Song Name</p>
+    <p class="large">Song Name</p>
     <p>Artist Name  |  Album Name  |  Genre</p>
 
   </div>
