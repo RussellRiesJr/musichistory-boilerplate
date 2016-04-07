@@ -1,0 +1,25 @@
+body {
+  background-color: #FEFAC0;
+}
+
+div {
+  border: 2px solid black;
+}
+
+.nav {
+  background-color: #FFB4B0;
+  height: 60px;
+}
+
+.nav li {
+  display: inline;
+  float: left;
+  list-style-type: none;
+  margin: 5px 0 0 2px;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: white;
+}
+
