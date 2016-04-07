@@ -23,6 +23,9 @@ div.border {
 .side {
   background-color: #4DD7FA;
   float: left;
+}
+
+.sidebox {
   width: 200px;
   height: 345px;
   padding: 15px;
@@ -34,10 +37,16 @@ div.border {
   padding: 5px;
 }
 
+.rock {
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
 .main {
   background-color: #FEFAC0;
   float: right;
-  width: 900px;
+  width: 890px;
   height: auto;
   padding: 15px;
   margin: 5px 85px 0 0;

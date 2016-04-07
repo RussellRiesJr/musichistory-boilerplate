@@ -16,7 +16,7 @@
     </ul>
   </div>
 
-  <div class="side border">
+  <div class="side sidebox border">
     <form action="index_submit" method="get" accept-charset="utf-8">
       <label for="song-length">Song Length:</label>
       <br/>
@@ -49,20 +49,25 @@
       <br/>
       <label for="genre">Genre:</label>
       <br/>
-      <input type="checkbox" name="rock" value="rock">Rock
-      <input type="checkbox" name="classical" value="classical">Classical
-      <br/>
-      <input type="checkbox" name="pop" value="pop">Pop
-      <input type="checkbox" name="jazz" value="jazz">Jazz
-      <br/>
-      <input type="checkbox" name="blues" value="blues">Blues
-      <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop
-      <br/>
-      <div class="middle">
+      <div class="side rock">
+        <input type="checkbox" name="rock" value="rock">Rock
+        <br/>
+        <input type="checkbox" name="pop" value="pop">Pop
+        <br/>
+        <input type="checkbox" name="blues" value="blues">Blues
+      </div>
+      <div class="rock">
+        <input type="checkbox" name="classical" value="classical">Classical
+        <br/>
+        <input type="checkbox" name="jazz" value="jazz">Jazz
+        <br/>
+        <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop
+      </div>
+
+      <div class="side middle">
         <input type="button" class="middle" name="filter" value="Filter">
       </div>
     </form>
-
   </div>
 
   <div class="main border">
