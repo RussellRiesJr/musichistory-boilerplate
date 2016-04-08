@@ -38,7 +38,13 @@ div.border {
 }
 
 .rock {
-  width: 100px;
+  width: 68px;
+  height: 100px;
+  display: inline;
+}
+
+.roll {
+  width: 80px;
   height: 100px;
   display: inline;
 }
@@ -77,4 +83,8 @@ p.large {
 
 .lineit {
   outline:  2px solid black;
+}
+
+.drissell {
+  float: left;
 }

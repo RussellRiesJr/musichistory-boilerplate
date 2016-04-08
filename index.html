@@ -18,12 +18,16 @@
 
   <div class="side sidebox border">
     <form action="index_submit" method="get" accept-charset="utf-8">
+      <div >
       <label for="song-length">Song Length:</label>
-      <br/>
+      </div>
+      <div>
       <input type="range" class="wide" id="song-length" min="2" max="10" step="0.5" value="6">
-      <br/>
+      </div>
+      <div>
       <label for="artist">Artist:</label>
-      <br/>
+      </div>
+      <div>
       <input name="artist" class="thick" list="artist-name" placeholder="Options">
       <datalist id="artist-name">
       <option value="Red Knuckles and the Trailblazers">
@@ -32,9 +36,11 @@
       <option value="Plastic Clap">
       <option value="Spring Hill Spider Party">
       </datalist>
-      <br/>
+      </div>
+      <div>
       <label>Album:</label>
-      <br/>
+      </div>
+      <div>
       <input name="album" class="thick" list="artist-album" placeholder="Options">
       <datalist id="artist-album">
       <option value="1986">
@@ -46,22 +52,19 @@
       <option value="FTFA">
       <option value="Three Swords and a Gash">
       </datalist>
-      <br/>
-      <label for="genre">Genre:</label>
-      <br/>
-      <div class="side rock">
-        <input type="checkbox" class="lineit" name="rock" value="rock">Rock
-        <br/>
-        <input type="checkbox" class="lineit" name="pop" value="pop">Pop
-        <br/>
-        <input type="checkbox" class="lineit" name="blues" value="blues">Blues
       </div>
-      <div class="rock">
-        <input type="checkbox" class="lineit" name="classical" value="classical">Classical
-        <br/>
-        <input type="checkbox" class="lineit" name="jazz" value="jazz">Jazz
-        <br/>
-        <input type="checkbox" class="lineit" name="hip-hop" value="hip-hop">Hip Hop
+      <div>
+      <label for="genre">Genre:</label>
+      </div>
+      <div class="side rock">
+        <label for="x"><input type="checkbox" class="lineit" id="x" name="blues" value="blues"><span>Blues</span></label>
+        <label for="y"><input type="checkbox" class="lineit" id="y" name="pop" value="pop"><span>Pop</span></label>
+        <label for="z"><input type="checkbox" class="lineit" id="z" name="rock" value="rock"><span>Rock</span></label>
+      </div>
+      <div class="side roll">
+        <label for="q"><input type="checkbox" class="lineit" id="q" name="classical" value="classical"><span>Classical</span></label>
+        <label for="s"><input type="checkbox" class="lineit" id="s" name="hip-hop" value="hip-hop"><span>Hip Hop</span></label>
+        <label for="r"><input type="checkbox" class="lineit" id="r" name="jazz" value="jazz"><span>Jazz</span></label>
       </div>
       <div class="middle">
         <input type="button" class="thick" name="filter" value="Filter">
