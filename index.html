@@ -20,11 +20,11 @@
     <form action="index_submit" method="get" accept-charset="utf-8">
       <label for="song-length">Song Length:</label>
       <br/>
-      <input type="range" id="song-length" min="2" max="10" step="0.5" value="6">
+      <input type="range" class="wide" id="song-length" min="2" max="10" step="0.5" value="6">
       <br/>
       <label for="artist">Artist:</label>
       <br/>
-      <input name="artist" list="artist-name" placeholder="Options">
+      <input name="artist" class="thick" list="artist-name" placeholder="Options">
       <datalist id="artist-name">
       <option value="Red Knuckles and the Trailblazers">
       <option value="Pavement">
@@ -35,7 +35,7 @@
       <br/>
       <label>Album:</label>
       <br/>
-      <input name="album" list="artist-album" placeholder="Options">
+      <input name="album" class="thick" list="artist-album" placeholder="Options">
       <datalist id="artist-album">
       <option value="1986">
       <option value="Shades of the Past">
@@ -63,9 +63,8 @@
         <br/>
         <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop
       </div>
-
-      <div class="side middle">
-        <input type="button" class="middle" name="filter" value="Filter">
+      <div class="middle">
+        <input type="button" class="thick" name="filter" value="Filter">
       </div>
     </form>
   </div>

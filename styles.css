@@ -64,4 +64,13 @@ p.large {
 
 .middle {
   text-align: center;
+  clear: both;
+}
+
+.thick {
+  border: 2px solid black;
+}
+
+.wide {
+  width: 95%;
 }
