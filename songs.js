@@ -11,9 +11,17 @@ songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little
 songs.unshift("I Believe I Can Fly - by R. Kelly on the album Space Jam");
 songs.push("Roundabout - by Yes on the album Fragile");
 
-console.log(songs);
+
 // Loop over the array and remove any words or characters that obviously don't belong.
 // Students must find and replace the > character in each item with a - character.
+for (var i = 0; i < songs.length; i++) {
+  songs[i] = songs[i].replace(/>/g, "-");
+  songs[i] = songs[i].replace("*", "");
+  songs[i] = songs[i].replace("@", "");
+  songs[i] = songs[i].replace("(", "");
+  songs[i] = songs[i].replace("!", "");
+}
+  console.log(songs);
 // Must add each string to the DOM in index.html in the main content area
 
 // {Song name} by {Artist} on the album {Album}
